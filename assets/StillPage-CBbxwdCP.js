@@ -1,0 +1,1 @@
+import{j as s,I as a,i}from"./index-BfKOONGT.js";const t=()=>{const e=i.still?.main?.thumbnails||[];return s.jsx("div",{className:"min-h-screen",children:s.jsx(a,{images:e,category:"still",project:"main"})})},n=()=>s.jsx("div",{className:"min-h-screen bg-white flex flex-col",children:s.jsx(t,{})});export{n as default};

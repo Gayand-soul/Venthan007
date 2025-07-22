@@ -1,1 +1,0 @@
-import{j as e,I as a,i}from"./index-D3ISTN57.js";const n=()=>{const s=i.people?.main?.thumbnails||[];return e.jsx("div",{className:"min-h-screen",children:e.jsx(a,{images:s,category:"people",project:"main"})})},r=()=>e.jsx("div",{className:"min-h-screen bg-white flex flex-col",children:e.jsx(n,{})});export{r as default};
