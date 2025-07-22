@@ -1,0 +1,1 @@
+import{j as e,I as t,i as a}from"./index-BldbXp6z.js";const r=()=>{const s=a.street?.main?.thumbnails||[];return e.jsx("div",{className:"min-h-screen",children:e.jsx(t,{images:s,category:"street",project:"main"})})},n=()=>e.jsx("div",{className:"min-h-screen bg-white flex flex-col",children:e.jsx(r,{})});export{n as default};
