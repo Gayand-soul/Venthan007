@@ -1,1 +1,0 @@
-import{j as e,I as s,i as m}from"./index-BfKOONGT.js";const o=()=>{const a=m.welcome?.main?.thumbnails||[];return e.jsx("div",{className:"min-h-screen",children:e.jsx(s,{images:a,category:"welcome",project:"main"})})};export{o as default};
