@@ -1,0 +1,10 @@
+
+/* Tailwind CSS-directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: theme('fontFamily.primary');
+    background-color: white;
+}

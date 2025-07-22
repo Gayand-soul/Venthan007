@@ -1,0 +1,36 @@
+
+/* TILLÄGG: STILER FÖR CURSOR-HOVER-EFFEKT  på musen på bilden */
+.image-area-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    cursor: none;
+    
+}
+
+.custom-cursor {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    background: rgba(242, 255, 1, 0.944);
+    border-radius: 50%;  
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+    transition: transform 0.2s ease;
+    left: 0; 
+    top: 0;
+}
+
+.custom-cursor:active {
+    transform: translate(-50%, -50%) scale(0.85);
+    background-color: #045707;
+}
+.custom-cursor * {
+    all: unset !important;
+}
